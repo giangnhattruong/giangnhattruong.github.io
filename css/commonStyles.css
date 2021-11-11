@@ -1,0 +1,60 @@
+:root {
+	--nav-color: #19647e;
+	--footer-color: #37392e;
+	--button-color: #28b0b0c4;
+	--header-content-color: rgb(219, 219, 219);
+	--text-color: rgb(51, 51, 51);
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+header {
+	padding-top: 90px;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+nav {
+	background-color: var(--nav-color);
+	width: 100%;
+	z-index: 999;
+}
+
+nav a #logo {
+	height: 2rem;
+}
+
+.btn-primary {
+	background-color: var(--button-color);
+	outline: none;
+	border: none;
+	padding: 0.9rem 3rem;
+}
+
+.btn-primary:hover,
+.btn-primary:visited {
+	background-color: var(--nav-color);
+}
+
+footer {
+	background-color: var(--footer-color);
+	color: var(--header-content-color);
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
